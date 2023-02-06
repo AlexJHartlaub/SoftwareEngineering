@@ -6,8 +6,7 @@ var dice = {
   }
   
   
-  
-  //Prints dice roll to the page
+
   
   function printNumber(number) {
     var placeholder = document.getElementById('number');
@@ -20,4 +19,6 @@ var dice = {
     var result = dice.roll();
     printNumber(result);
   };
-  
+
+  window.onload = function () {
+    document.getElementById("button").click(); };

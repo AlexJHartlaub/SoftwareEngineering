@@ -1,0 +1,26 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+  }
+button {
+    background-color: wheat;
+  border-radius: 15px;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 30px;
+  text-transform: uppercase;
+  width: 200px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#number {
+  background-color: blanchedalmond;
+    height: 100px;
+    width: 100px;
+    padding: 50px;
+    margin: 50px auto;
+    border: 1px solid gray;
+    border-radius: 30px;  
+    font-size:80px;
+}
